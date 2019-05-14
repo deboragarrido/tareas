@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Clase 5.2</title>
+</head>
+<body>
+	<H1>Formulario de registro</H1>
+<form>
+		<table>	
+			<tr>
+				<td>Nombre</td>
+				<td>
+					<input type="text" name="Nombre" placeholder="Ej: Felipe Javier">
+				</td>
+			</tr>
+			<tr>
+				<td>Apellido</td>
+				<td>
+					<input type="text" name="Apellido" placeholder="Ej: Loyola Monje">
+				</td>
+			</tr>
+			<tr>
+				<td>Dirección</td>
+				<td>
+					<input type="text" name="Dirección" placeholder="Calle, numero, departamento">
+				</td>
+			</tr>
+			<tr>
+				<td>Comuna</td>
+				<td>
+					<select name="Comuna">
+						<option></option>
+						<option value="Santiago">Santiago</option>
+						<option value="Nunoa">Nuñoa</option>
+						<option value="Independencia">Independencia</option>
+						<option value="Conchali">Conchali</option>
+						<option value="Quilicura">Quilicura</option>
+						<option value="Maipu">Maipú</option>
+						<option value="Pedro Aguirre Cerda">Pedro Aguirre Cerda</option>
+					</select>
+				</td>
+			</tr>
+			<tr>
+				<td>Sexo</td>
+				<td>
+					<select name="Sexo">	
+						<option value="Femenino">Femenino</option>
+						<option value="Masculino">Masculino</option>
+						<option value="Bisexual">Bisexual</option>
+						<option value="Asexual">Asexual</option>
+						<option value="En busqueda">En Busqueda</option>
+					</select>
+				</td>
+			</tr>
+			<tr>
+				<td>Observación</td>
+				<td>
+					<textarea name="Observación" placeholder="Cuentanos tu historia"></textarea>
+				</td>	
+			</tr>
+			<tr>
+				<td colspan="2"><input type="submit" name="guardar"></td>
+			</tr>
+		</table>
+</form>
+</body>
+</html>

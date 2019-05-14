@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Hello Bulma!</title>
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.4/css/bulma.min.css">
+		<script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+	</head>
+	<body>
+	<!-- =) -->
+	<section class="section">
+		<div class="container">
+			<h1 class="title">
+				Formulario de Inscripción para adoptar gatitos
+			</h1>
+			<p class="subtitle">
+				Dejanos aqui tus datos y te contactaremos <strong>Fundación Akira</strong>!
+			</p>
+			<hr class="has-background-primary"></hr>
+			<div class="field">
+				<label class="label">Nombre</label>
+				<div class="control has-icons-left has-icons-right">
+					<input class="input is-danger" type="text" placeholder="Nombre Completo">
+					<span class="icon is-small is-left">
+						<i class="fas fa-user"></i>
+					</span>
+					<span class="icon is-small is-right">
+						<i class="fas fa-exclamation-triangle"></i>
+					</span>
+				</div>
+				<p class="help is-danger">Su nombre no esta completo</p>
+			</div>
+			<div class="field">
+				<label class="label">Apellido</label>
+				<div class="control has-icons-left has-icons-right">
+					<input class="input is-success" type="text" placeholder="Ej: Loyola Monje">
+					<span class="icon is-small is-left">
+						<i class="fas fa-user"></i>
+					</span>
+					<span class="icon is-small is-right">
+						<i class="fas fa-check"></i>
+					</span>
+				</div>
+			</div>
+			<div class="field">
+				<label class="label">Dirección</label>
+				<div class="control has has-icons-left has-icons-right">
+					<input class="input" type="text" placeholder="Ej: Av. Irarrazabal 2150, Depto 708">
+					<span class="icon is-small is-left">
+						<i class="fas fa-home"></i>
+					</span>
+					<span class="icon is-small is-right">
+						<i class="fas fa-check"></i>
+					</span>
+				</div>
+			</div>
+			<div class="field">
+				<label class="label">Comuna</label>
+				<div class="control">
+					<div class="select is-loading">
+						<select>
+							<option></option>
+							<option>Santiago</option>
+							<option>Nuñoa</option>
+							<option>Conchali</option>
+							<option>Independencia</option>
+							<option>Las Condes</option>
+							<option>Providencia</option>
+							<option>Huechuraba</option>
+							<option>Pudahuel</option>
+							<option>La Pintana</option>
+							<option>Cerrillos</option>
+							<option>Pedro Aguirre Cerda</option>
+						</select>
+					</div>
+				</div>
+			</div>
+			<div class="field">
+				<label class="label">Sexo</label>
+				<div class="control has-icons-left">
+					<div class="select">
+						<select>
+							<option></option>
+							<option>Femenino</option>
+							<option>Masculino</option>
+						</select>
+					</div>
+					<span class="icon is-small is-left">
+						<i class="fas fa-venus-mars"></i>
+					</span>
+				</div>
+			</div>
+			<div class="field">
+				<label class="label">Fecha de Nacimiento</label>
+				<div class="control has-icons-left">
+					<input class="input" type="text" placeholder="Ej: 16-01-1984">
+					<span class="icon is-small is-left">
+						<i class="fas fa-calendar-alt"></i>
+					</span>
+				</div>
+			</div>
+			<div class="field">
+				<label class="label">Cuentanos mas de ti</label>
+				<div class="control">
+					<textarea class="textarea" placeholder="¿Por que te gustaria adoptar un gatito?, ¿Con quien vives? ¿Tienes experiencia con mascotas?"></textarea>
+				</div>
+			</div>
+			<div class="field is-horizontal">
+				<div class="field-label">
+					<label class="label">¿Tienes mas mascotas?</label>
+				</div>
+				<div class="field-body">
+					<div class="field is-narrow">
+						<div class="control">
+							<label class="radio">
+								<input type="radio" name="member">
+								Si
+							</label>
+							<label class="radio">
+								<input type="radio" name="member">
+								No
+							</label>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="field is-horizontal">
+				<div class="field-label">
+					<label class="label">¿Que tipo de mascota?</label>
+				</div>
+				<div class="field-body">
+					<div class="field is-narrow">
+						<div class="control">
+							<label class="radio">
+								<input type="radio" name="member">
+								Perros
+							</label>
+							<label class="radio">
+								<input type="radio" name="member">
+								Gatos
+							</label>
+							<label class="radio">
+								<input type="radio" name="member">
+								Otros
+							</label>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="field is-horizontal">
+				<div class="field-label">
+					<label class="label">¿Tienes mallas en las ventanas?</label>
+				</div>
+				<div class="field-body">
+					<div class="field is-narrow">
+						<div class="control">
+							<label class="radio">
+								<input type="radio" name="member">
+								Si
+							</label>
+							<label class="radio">
+								<input type="radio" name="member">
+								No
+							</label>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="field is-grouped">
+				<div class="control">
+					<button class="button is-primary">Enviar</button>
+				</div>
+				<div class="control">
+					<button class="button is-text">Cancelar</button>
+				</div>
+			</div>
+			<div class="notification is-primary has-text-justified">
+				<button class="delete"></button>
+				Para nosotros es importante conocerte antes de entregarte a un gatito rescatado, debemos asegurar su bienestar, analizaremos tus datos y te contactaremos a la brevedad, gracias!
+				<p class="has-text-centered">
+					<strong class="has-text-centered">Fundación Akira</strong>
+				</p>
+			</div>
+			<div class="container">
+				<div class="columns is-mobile">
+					<div class="column"></div>
+					<div class="column">
+						<figure class="image is-128x128">
+							<img class="is-rounded" src="https://lh3.googleusercontent.com/zfV2j0mI0Jym2CdKTY9ROfx1Py_TuOhWIUku5vJVydd3F6CPEzIpf3khbI94ujc1Vhm5IX7BPXg5_ELeU80i6LMaVSJ8h2bENn9ZobXzYOECAJ84i2lC5x69e4jbBxrCzGPcTLzN1xDBfAW1ZmJrDNGgV9CwrDcUiT0hKNd3vsyY_6x_rad5o70MzHYwTN25B4poI1FMvYWg5HimEEW9bo3KQnD3wbagV7t7eF9_o9w5QV1DVeeqy15oLluy7suLNhUMLsWI-DHQncZgtxs4bhK-Sj36UTXIW6_2hHMLXF-r7yd_mha8ltOtJcuTBRMl-7bS5fPUrZc1P1--__JFn895bcYgz-kftf_thjq-9sNxhbPM2nZBf49Wm99olif7j44hiPcLXm4TV1FAT-ggLB2-0v5l-wcoqObbdrDmRuWOLGCRUTMRWTt6GCoDwThmib_Dz8e70aiob0WhF9L2lgD2ETEpLPvFPW3v2iUgE3yNE_pvGNn0BRImZcV5JRjsTZqvCs162hJQtVzkc0jHsHivxtMAD46SfdEXUGFyHYiSnJnflKWfCoIrAGbkXO97z6vnms9e9lsQAs3PvwweqiS87UzuSIrA8--NHYNXnGigPD665xAh4GioOt30eje4e46BsjiRu2DWc-rpOm5SoNJ03G_OqIVQ-36pUsx9hPz1SIoPMg2S4e9RjDgcHgUsyQ78_N8GTHRMxdmjCFDbqjCUIw=w502-h669-no">
+						</figure>
+					</div>
+					<div class="column"></div>
+				</div>
+			</div>
+		</div><!-- fin container -->
+	</section>
+	</body>
+</html>
